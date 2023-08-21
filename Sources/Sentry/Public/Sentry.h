@@ -1,4 +1,4 @@
-#import <Foundation/Foundation.h>
+#import <Foundation/Foundation.h"
 
 //! Project version number for Sentry.
 FOUNDATION_EXPORT double SentryVersionNumber;
@@ -28,6 +28,13 @@ FOUNDATION_EXPORT const unsigned char SentryVersionString[];
 #import "SentryMechanism.h"
 #import "SentryMechanismMeta.h"
 #import "SentryMessage.h"
+
+#import "PrivateSentrySDKOnly.h"
+#import "SentryScreenFrames.h"
+#import "SentryOptions+HybridSDKs.h"
+#import "SentryBinaryImageCache.h"
+#import "SentryDependencyContainer.h"
+#import "SentryFormatter.h"
 #import "SentryNSError.h"
 #import "SentryOptions.h"
 #import "SentryRequest.h"
